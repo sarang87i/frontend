@@ -70,11 +70,14 @@ GitHub 가입
         ls -al : 폴더가 안보일 때 명령어
 
 
+
     2. 원하는 파일 생성하기
         README.md , index.html , style.css 파일을 생성
 
+
     3. 버전관리 파일 선택하기
         git add 파일명(ex)README.md))
+
 
     4. 버전관리 파일 커밋하기
         git commit -m "(ex)README.md를 추가했어요."
@@ -100,8 +103,31 @@ GitHub 가입
     5. 로그 확인하기
         git log
 
-    6. 여러 파일을 선택하기
-    git add .
 
+    6. 여러 파일을 선택하기
+        git add .
+
+
+    7. 여러 파일 커밋하기
+        git commit -m "모든 파일 추가"
+
+
+    8. 로그 확인하기
+        git log
+
+
+    9. 로컬 저장소에 github 저장소 주소 설정하기
+        git remote add origin https://github.com/sarang87i/frontend.git   <-- 주소는 설정값에 따라 각각 다름..
 
     
+    10. 만든 커밋을 github에 푸시하기
+        git push -u origin master
+
+
+    # 원격 저장소(github)의 자료를 내 컴퓨터에 받아오기
+    1. 디렉토리 이동
+    cd D:\sarang87i[1400_FrontEnd_KTW]\Clone    <-- 예를 들은것임
+
+    2. 원격 저장소에서 자료를 복사해서 가져오기
+    git clone https://github.com/sarang87i/frontend.git   (폴더가 생성됨)
+    git clone https://github.com/sarang87i/frontend.git . (파일만 생성됨)
